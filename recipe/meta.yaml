@@ -1,5 +1,5 @@
 {% set name = "igwn-robot-auth" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/igwn_robot_auth-{{ version }}.tar.gz
-  sha256: e1223dc315bb854ab0c1d3deb7ebb55f1027f0058e1a6548a67e43b1f315eb4b
+  sha256: ba5602262c229bad4dcca8d7d5c7421797daed7465f00b92738c6096782c85c9
 
 build:
   entry_points:
